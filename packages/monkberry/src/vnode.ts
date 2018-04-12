@@ -10,7 +10,7 @@ export interface VNode {
   parentVNode?: VNode
 }
 
-export type Ref = (node: Element | null) => void;
+export type Ref = (node: Element | null) => void
 
 export type Spot = VNode[]
 
